@@ -29,8 +29,8 @@ int main(){
     int even[6] = {2,4,6,7,89,7};
     int odd[5] = {45,6,53,1,5};
 
-    int evenIndex = binarySearch(even, 6, 7);
-    int oddIndex = binarySearch(odd, 5, 53);
+    int evenIndex = peakElement(even, 6, 7);
+    int oddIndex = peakElement(odd, 5, 53);
     cout<<"index of 7 is " << endl;
     cout<<"index of 53 is " << endl;
 
